@@ -1,0 +1,118 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.father {
+    width: 100%;
+    height: 100vh;
+    background-color: #072345;
+}
+
+.title h1{
+    text-align: center;
+    color: white;
+    font-size: 50px;
+}
+
+.padding_30 {
+    padding: 100px 600px;
+}
+
+.search input{
+    width: 500px;
+    height: 30px;
+    background-color: #07234500;
+    border-style: none none solid none;
+    border-color: white;
+    margin-right: 20px;
+    color: white;
+    outline-width: 0;
+    font-size: 20px;
+}
+
+.search button{
+    background-color: red;
+    width: 80px;
+    height: 40px;
+    border-radius: 10px;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+}
+
+::placeholder{
+    color: white;
+    font-size: 20px;
+}
+
+.searchFather{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+
+.content {
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.fatherContent{
+    margin-right: 30px;
+    width: 180px;
+    height: 320px;
+    border-radius: 30px;
+    background-color: white;
+    display: grid;
+    padding: 30px 20px;
+}
+
+.content div div row{
+    color: #808080;
+    font-size: 25px;
+    font-weight: bold;
+    height: 0px;
+    padding-top: 10px;
+}
+
+.chillContent{
+    display: flex;
+}
+
+.chillContent row1{
+    background-color: red;
+    width: 42px;
+    height: 22px;
+    border-radius: 5px;
+    color: white;
+    border-width: 1px;
+    border-color: white;
+    text-align: center;
+}
+
+temperature{
+    font-size: 80px;
+    font-weight: bold;
+}
+
+doc{
+    display: flex;
+    text-transform: uppercase;
+    align-items: end;
+    justify-content: center;
+}
+
+.center{
+    width: 180px;
+}
+
+.doC{
+    font-size: 45px;
+    font-weight: initial;
+}
+
+.flex{
+    padding-top: 15px;
+    display: flex;
+}
